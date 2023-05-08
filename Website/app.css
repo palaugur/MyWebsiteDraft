@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+
+}
+
+#giris {
+    background-image: url(imgs/giris.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    background-color: #827081;
+    opacity: 0.7;
+
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+
+#mainNavbar.scrolled {
+    background: rgb(52, 41, 52);
+    transition: all 500ms;
+}
+
+@media (max-width:992px) {
+
+    #navsearchBox input {
+        width: 35%;
+    }
+
+}
+
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+
+    background-color: #827081;
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.dropdown-item:hover {
+    color: #EA1C2C;
+}
+
+.middle-section {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+
+}
+
+
+.middle-section #headingGroup {
+    border-radius: 5%;
+    background-color: #827081;
+    opacity: 0.7;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 20px 9px #6865641e;
+}
+
+#logo {
+    margin-top: 10vh;
+    width: 25%;
+    height: auto;
+}
+
+
+
+@media (max-width: 767px) {
+
+    #mainNavbar {
+
+        font-size: 1rem;
+        background-color: #827081;
+        opacity: 0.7;
+
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    #logo {
+        display: none;
+    }
+
+    #form-box {
+        width: 380px;
+        height: 480px;
+        position: relative;
+        background: rgb(130, 112, 129, 0.5);
+        box-shadow: 0 0 20px 9px #6865641e;
+        border-radius: 35px;
+        margin: auto;
+        top: 10vh;
+        padding: 10px;
+        overflow: hidden;
+    }
+}
+
+.main {
+
+    background-image: url(imgs/giris.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.abonelik {
+    background-image: url(imgs/giris.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+@media (max-width: 980px) {
+    .abonelik {
+
+        height: 350vh;
+    }
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background: rgb(130, 112, 129, 0.5);
+    box-shadow: 0 0 20px 9px #6865641e;
+    border-radius: 35px;
+    margin: auto;
+    top: 1vh;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #220d051a;
+    border-radius: 35px;
+}
+
+.toggle-btn {
+
+    position: relative;
+    padding: 10px 35px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #827081, #cbd1d5);
+    border-radius: 35px;
+    transition: .5s;
+
+}
+
+.button-box button:nth-child(2) {
+    color: #fff;
+}
+
+.button-box button:nth-child(3) {
+    color: #fef3f3;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons lottie-player {
+    width: 40px;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.input-group {
+    color: white;
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s;
+}
+
+
+
+#Login .input-field {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    margin: 5px 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 253, 253, 0.7);
+    outline: none;
+}
+
+#Register .input-field {
+    width: 45%;
+    padding: 0px 0;
+    border: none;
+    margin: 10px 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 253, 253, 0.7);
+    outline: none;
+}
+
+#Register .input-field:first-child {
+    margin-right: 30px;
+}
+
+.input-field::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+#Register select {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+
+}
+
+
+#Register option {
+    color: white;
+    background-color: rgb(130, 112, 129, 0.6);
+
+}
+
+
+
+.input-field {
+    color: white;
+}
+
+#checkingRegister {
+    width: 110%;
+    padding: 0px 0;
+    margin: 10px 0;
+
+}
+
+
+.submit-btn {
+    width: 50%;
+    padding: 10px;
+    display: block;
+    margin: 20px auto 0;
+    border-radius: 35px;
+
+}
+
+.input-group a {
+    display: inline-block;
+    text-decoration: none;
+    color: #d4cece;
+    margin: 30px 10px 30px 0px;
+    font-size: 12px;
+
+}
+
+#Login {
+    left: 50px;
+}
+
+#Register {
+    left: 450px;
+}
+
+/* Hakkında */
+
+.blurb h2 {
+    color: #493e3f;
+    font-weight: bolder;
+    font-size: 2.5rem;
+
+}
+
+.blurb p {
+    color: #493e3f;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+@media (max-width:1500px) {
+
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+
+
+@media (max-width:1200px) {
+
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+
+    .blurb h2 {
+        font-size: 2rem;
+    }
+
+}
+
+.empty-div {
+    width: 100px;
+    height: 75px;
+}
+
+.img-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    width: 400px;
+    height: auto;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 0 20px 20px rgba(34, 13, 5, 0.3);
+}
+
+
+.sticky-footer {
+    background-color: #827081;
+}
+
+.sticky-footer h4 {
+    color: #b7a1a5;
+    border-bottom: 1px solid #b7a1a5;
+}
+
+.sticky-footer a {
+    text-decoration: none;
+    color: white
+}
+
+.sticky-footer li {
+
+    color: white
+}
+
+.sticky-footer a:hover {
+    color: #EA1C2C;
+}
+
+.panel {
+    background-color: rgba(130, 112, 129, 0.5);
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-plan {
+    border-bottom: 2px solid rgba(43, 42, 42, 0.5);
+}
+
+.pricing-plan ul li {
+    list-style-type: none;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-img lottie-player {
+    display: inline-block;
+    margin-bottom: 25px;
+    max-width: 100%;
+
+}
+
+.pricing-header {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    margin: 50px 0 25px;
+    color: white;
+
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+
+}
+
+.pricing-features-item:last-child {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+ol,
+ul {
+    padding-left: 0rem;
+}
+
+.pricing-price {
+    color: #f2f6fb;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    border: 1px solid white;
+    border-radius: 35px;
+    color: white;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #e1f1ff;
+    color: black;
+
+}
+
+.pricing-button.is-featured {
+    background-color: #48aaff;
+    color: white;
+
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+    background-color: white;
+    color: black;
+
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
+
+#imgtag {
+    margin-top: 5%;
+    color: rgb(88, 26, 26);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+@media (max-width: 991px) {
+    .col-lg-3 {
+        margin-bottom: 50px;
+    }
+
+}
